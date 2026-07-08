@@ -1,0 +1,23 @@
+{
+  "name": "@luxwallet/monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lux Wallet — the one native, omnichain, post-quantum wallet stack. Headless @luxwallet/core + chains/rpc/connect leaves + mpc/safe/bridge custody seams.",
+  "license": "MIT",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc --build packages/chains packages/rpc packages/connect packages/core packages/mpc packages/safe packages/bridge",
+    "typecheck": "tsc --build packages/chains packages/rpc packages/connect packages/core packages/mpc packages/safe packages/bridge",
+    "clean": "tsc --build --clean packages/chains packages/rpc packages/connect packages/core packages/mpc packages/safe packages/bridge",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

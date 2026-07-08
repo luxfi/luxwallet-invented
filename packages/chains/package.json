@@ -1,0 +1,31 @@
+{
+  "name": "@luxwallet/chains",
+  "version": "0.1.0",
+  "description": "Lux Wallet chain registry — one source of truth. Emits chains.json for native (Kotlin/Swift) consumers.",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist",
+    "chains.json"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "react-native": "./dist/index.js",
+      "browser": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./chains.json": "./chains.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luxwallet/chains.git"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "typecheck": "tsc --build"
+  }
+}

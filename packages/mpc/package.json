@@ -1,0 +1,27 @@
+{
+  "name": "@luxwallet/mpc",
+  "version": "0.1.0",
+  "description": "Threshold-custody seam over luxfi/mpc — thin HTTP client for t-of-n keygen/sign. No private key ever leaves the cluster.",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luxwallet/mpc.git"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "typecheck": "tsc --build"
+  }
+}

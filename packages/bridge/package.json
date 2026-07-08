@@ -1,0 +1,27 @@
+{
+  "name": "@luxwallet/bridge",
+  "version": "0.1.0",
+  "description": "Native Lux Bridge seam — thin client over bridge.lux.network (2-of-3 MPC). Quotes + initiates cross-chain transfers.",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luxwallet/bridge.git"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "typecheck": "tsc --build"
+  }
+}

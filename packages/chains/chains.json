@@ -1,0 +1,287 @@
+{
+  "$schema": "https://luxwallet.org/schema/chains.v1.json",
+  "version": 1,
+  "chains": [
+    {
+      "id": "lux-c-mainnet",
+      "name": "Lux C-Chain",
+      "family": "evm",
+      "evmChainId": 96369,
+      "networkId": 96369,
+      "mainnet": true,
+      "testnet": false,
+      "rpcRoute": "96369",
+      "bip44": {
+        "coinType": 60,
+        "path": "m/44'/60'/0'/0/0"
+      },
+      "nativeAsset": {
+        "symbol": "LUX",
+        "decimals": 18
+      },
+      "builderStatus": "ready"
+    },
+    {
+      "id": "lux-c-testnet",
+      "name": "Lux C-Chain Testnet",
+      "family": "evm",
+      "evmChainId": 96368,
+      "networkId": 96368,
+      "mainnet": false,
+      "testnet": true,
+      "rpcRoute": "96368",
+      "bip44": {
+        "coinType": 60,
+        "path": "m/44'/60'/0'/0/0"
+      },
+      "nativeAsset": {
+        "symbol": "LUX",
+        "decimals": 18
+      },
+      "builderStatus": "ready"
+    },
+    {
+      "id": "lux-dex",
+      "name": "Lux DEX Chain",
+      "family": "evm",
+      "evmChainId": 96370,
+      "networkId": 96370,
+      "mainnet": true,
+      "testnet": false,
+      "rpcRoute": "96370",
+      "bip44": {
+        "coinType": 60,
+        "path": "m/44'/60'/0'/0/0"
+      },
+      "nativeAsset": {
+        "symbol": "LUX",
+        "decimals": 18
+      },
+      "builderStatus": "ready"
+    },
+    {
+      "id": "zoo-mainnet",
+      "name": "Zoo",
+      "family": "evm",
+      "evmChainId": 200200,
+      "networkId": 200200,
+      "mainnet": true,
+      "testnet": false,
+      "rpcRoute": "200200",
+      "bip44": {
+        "coinType": 60,
+        "path": "m/44'/60'/0'/0/0"
+      },
+      "nativeAsset": {
+        "symbol": "ZOO",
+        "decimals": 18
+      },
+      "builderStatus": "ready"
+    },
+    {
+      "id": "zoo-testnet",
+      "name": "Zoo Testnet",
+      "family": "evm",
+      "evmChainId": 200201,
+      "networkId": 200201,
+      "mainnet": false,
+      "testnet": true,
+      "rpcRoute": "200201",
+      "bip44": {
+        "coinType": 60,
+        "path": "m/44'/60'/0'/0/0"
+      },
+      "nativeAsset": {
+        "symbol": "ZOO",
+        "decimals": 18
+      },
+      "builderStatus": "ready"
+    },
+    {
+      "id": "hanzo-mainnet",
+      "name": "Hanzo",
+      "family": "evm",
+      "evmChainId": 36963,
+      "networkId": 36963,
+      "mainnet": true,
+      "testnet": false,
+      "rpcRoute": "36963",
+      "bip44": {
+        "coinType": 60,
+        "path": "m/44'/60'/0'/0/0"
+      },
+      "nativeAsset": {
+        "symbol": "AI",
+        "decimals": 18
+      },
+      "builderStatus": "ready"
+    },
+    {
+      "id": "hanzo-testnet",
+      "name": "Hanzo Testnet",
+      "family": "evm",
+      "evmChainId": 36964,
+      "networkId": 36964,
+      "mainnet": false,
+      "testnet": true,
+      "rpcRoute": "36964",
+      "bip44": {
+        "coinType": 60,
+        "path": "m/44'/60'/0'/0/0"
+      },
+      "nativeAsset": {
+        "symbol": "AI",
+        "decimals": 18
+      },
+      "builderStatus": "ready"
+    },
+    {
+      "id": "spc-mainnet",
+      "name": "Sparkle Pony",
+      "family": "evm",
+      "evmChainId": 36911,
+      "networkId": 36911,
+      "mainnet": true,
+      "testnet": false,
+      "rpcRoute": "36911",
+      "bip44": {
+        "coinType": 60,
+        "path": "m/44'/60'/0'/0/0"
+      },
+      "nativeAsset": {
+        "symbol": "SPC",
+        "decimals": 18
+      },
+      "builderStatus": "ready"
+    },
+    {
+      "id": "spc-testnet",
+      "name": "Sparkle Pony Testnet",
+      "family": "evm",
+      "evmChainId": 36910,
+      "networkId": 36910,
+      "mainnet": false,
+      "testnet": true,
+      "rpcRoute": "36910",
+      "bip44": {
+        "coinType": 60,
+        "path": "m/44'/60'/0'/0/0"
+      },
+      "nativeAsset": {
+        "symbol": "SPC",
+        "decimals": 18
+      },
+      "builderStatus": "ready"
+    },
+    {
+      "id": "pars-mainnet",
+      "name": "Pars",
+      "family": "evm",
+      "evmChainId": 494949,
+      "networkId": 494949,
+      "mainnet": true,
+      "testnet": false,
+      "rpcRoute": "494949",
+      "bip44": {
+        "coinType": 60,
+        "path": "m/44'/60'/0'/0/0"
+      },
+      "nativeAsset": {
+        "symbol": "PARS",
+        "decimals": 18
+      },
+      "builderStatus": "ready"
+    },
+    {
+      "id": "pars-testnet",
+      "name": "Pars Testnet",
+      "family": "evm",
+      "evmChainId": 7071,
+      "networkId": 7071,
+      "mainnet": false,
+      "testnet": true,
+      "rpcRoute": "7071",
+      "bip44": {
+        "coinType": 60,
+        "path": "m/44'/60'/0'/0/0"
+      },
+      "nativeAsset": {
+        "symbol": "PARS",
+        "decimals": 18
+      },
+      "builderStatus": "ready"
+    },
+    {
+      "id": "lux-x-mainnet",
+      "name": "Lux X-Chain",
+      "family": "utxo",
+      "networkId": 1,
+      "mainnet": true,
+      "testnet": false,
+      "rpcRoute": "X",
+      "bip44": {
+        "coinType": 9000,
+        "path": "m/44'/9000'/0'"
+      },
+      "nativeAsset": {
+        "symbol": "LUX",
+        "decimals": 9
+      },
+      "builderStatus": "todo"
+    },
+    {
+      "id": "lux-p-mainnet",
+      "name": "Lux P-Chain",
+      "family": "platform",
+      "networkId": 1,
+      "mainnet": true,
+      "testnet": false,
+      "rpcRoute": "P",
+      "bip44": {
+        "coinType": 9000,
+        "path": "m/44'/9000'/0'"
+      },
+      "nativeAsset": {
+        "symbol": "LUX",
+        "decimals": 9
+      },
+      "builderStatus": "todo"
+    },
+    {
+      "id": "lux-q-mainnet",
+      "name": "Lux Q-Chain",
+      "family": "pqevm",
+      "networkId": 1,
+      "mainnet": true,
+      "testnet": false,
+      "rpcRoute": "Q",
+      "bip44": {
+        "coinType": 9000,
+        "path": "m/44'/9000'/0'"
+      },
+      "nativeAsset": {
+        "symbol": "LUX",
+        "decimals": 18
+      },
+      "builderStatus": "todo"
+    },
+    {
+      "id": "lux-z-mainnet",
+      "name": "Lux Z-Chain",
+      "family": "zk",
+      "networkId": 1,
+      "mainnet": true,
+      "testnet": false,
+      "rpcRoute": "Z",
+      "bip44": {
+        "coinType": 9000,
+        "path": "m/44'/9000'/0'"
+      },
+      "nativeAsset": {
+        "symbol": "LUX",
+        "decimals": 18
+      },
+      "builderStatus": "todo"
+    }
+  ]
+}

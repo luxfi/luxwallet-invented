@@ -1,0 +1,35 @@
+{
+  "name": "@luxwallet/connect",
+  "version": "0.1.0",
+  "description": "Sign-In-With-X (CAIP-122) message core — pure builder/parser + nonce/challenge helpers. MIT.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./caip122": {
+      "types": "./dist/caip122.d.ts",
+      "default": "./dist/caip122.js"
+    },
+    "./nonce": {
+      "types": "./dist/nonce.d.ts",
+      "default": "./dist/nonce.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luxwallet/connect.git"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "typecheck": "tsc --build"
+  }
+}
