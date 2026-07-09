@@ -1,7 +1,7 @@
 {
   "name": "@luxwallet/bridge",
   "version": "0.1.0",
-  "description": "Native Lux Bridge seam — thin client over bridge.lux.network (2-of-3 MPC). Quotes + initiates cross-chain transfers.",
+  "description": "Native Lux Bridge seam \u2014 thin client over bridge.lux.network (2-of-3 MPC). Quotes + initiates cross-chain transfers.",
   "license": "MIT",
   "type": "module",
   "files": [
@@ -23,5 +23,8 @@
   "scripts": {
     "build": "tsc --build",
     "typecheck": "tsc --build"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

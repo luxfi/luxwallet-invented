@@ -1,7 +1,7 @@
 {
   "name": "@luxwallet/safe",
   "version": "0.1.0",
-  "description": "Safe smart-account custody seam — thin client over the Safe Transaction Service. One owner key on device; multisig lives on-chain.",
+  "description": "Safe smart-account custody seam \u2014 thin client over the Safe Transaction Service. One owner key on device; multisig lives on-chain.",
   "license": "MIT",
   "type": "module",
   "files": [
@@ -23,5 +23,8 @@
   "scripts": {
     "build": "tsc --build",
     "typecheck": "tsc --build"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

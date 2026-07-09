@@ -1,7 +1,7 @@
 {
   "name": "@luxwallet/mpc",
   "version": "0.1.0",
-  "description": "Threshold-custody seam over luxfi/mpc — thin HTTP client for t-of-n keygen/sign. No private key ever leaves the cluster.",
+  "description": "Threshold-custody seam over luxfi/mpc \u2014 thin HTTP client for t-of-n keygen/sign. No private key ever leaves the cluster.",
   "license": "MIT",
   "type": "module",
   "files": [
@@ -23,5 +23,8 @@
   "scripts": {
     "build": "tsc --build",
     "typecheck": "tsc --build"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

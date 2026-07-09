@@ -1,7 +1,7 @@
 {
   "name": "@luxwallet/rpc",
   "version": "0.1.0",
-  "description": "Lux Wallet gateway RPC client — resolves https://<gateway>/v1/rpc/<chainId>.",
+  "description": "Lux Wallet gateway RPC client \u2014 resolves https://<gateway>/v1/rpc/<chainId>.",
   "license": "MIT",
   "type": "module",
   "files": [
@@ -28,5 +28,8 @@
   "scripts": {
     "build": "tsc --build",
     "typecheck": "tsc --build"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

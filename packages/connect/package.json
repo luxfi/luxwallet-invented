@@ -1,7 +1,7 @@
 {
   "name": "@luxwallet/connect",
   "version": "0.1.0",
-  "description": "Sign-In-With-X (CAIP-122) message core — pure builder/parser + nonce/challenge helpers. MIT.",
+  "description": "Sign-In-With-X (CAIP-122) message core \u2014 pure builder/parser + nonce/challenge helpers. MIT.",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -31,5 +31,8 @@
   "scripts": {
     "build": "tsc --build",
     "typecheck": "tsc --build"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
